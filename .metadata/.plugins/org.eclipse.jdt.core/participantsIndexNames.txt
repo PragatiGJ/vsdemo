@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\lenovo\Desktop\Angular_LTI\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1119502997.index
+\crud\src
+C:\Users\lenovo\Desktop\Angular_LTI\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1448081375.index
+\crud\src

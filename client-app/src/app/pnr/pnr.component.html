@@ -1,0 +1,18 @@
+<form (ngSubmit)="checkPnr()">
+    Enter PNR No : <input type = "number" [(ngModel)]=pnrNo name="pnrNo" /> <br />
+    <button type="submit">Check Status</button>
+
+</form>
+<div *ngIf="data">
+    Status of your ticket with PNR No {{ data.pnrNo }} is as follows: <br />
+    Train no : {{ data.trainNo }} <br />
+    Train Date : {{ data.travelDate}} <br />
+    <!-- use *ngFor for iterarting/looping over passengers list -->
+    Passengers:
+    <div *ngFor = "let p of data.passengers">
+        Name : {{ p.name }} <br> 
+        Gender : {{ p.gender }} <br>
+        Status : {{ p.status }} <br>
+    </div>
+
+</div>

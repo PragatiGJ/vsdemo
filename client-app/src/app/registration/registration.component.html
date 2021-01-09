@@ -1,0 +1,9 @@
+<p>Welcome !</p>
+<p>Please provide us with the following details : - </p>
+<form (ngSubmit)="register()">
+    Enter your name : <input type = "text" name="t1" [(ngModel)]=customer.name /> <br />
+    Enter your Date Of Birth : <input type = "date" name="t2" [(ngModel)]=customer.dateOfBirth /> <br />
+    Enter your Email address : <input type = "email" name="t3" [(ngModel)]=customer.email /> <br />
+    Enter your password : <input type = "password" name="t4" [(ngModel)]=customer.password /> <br />
+    <button type="submit">Register</button>
+</form>

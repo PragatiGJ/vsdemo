@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\lenovo\Desktop\Angular_LTI\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1571822070.index
+394142845.index
+4033596388.index
+3299404899.index
+416913986.index
+4214345166.index
